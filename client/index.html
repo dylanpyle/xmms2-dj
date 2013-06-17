@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>xmms2-dj</title>
+    <style>
+      .playlist { width: 500px; }
+    </style>
+  </head>
+  <body>
+    <button class='js-play'>Play</button>
+    <button class='js-pause'>Pause</button>
+    <h3>Current playlist:</h3>
+    <div class='playlist'></div>
+
+    <script>
+      window.XDJ_CONFIG = {
+        api: 'http://localhost:3000'
+      };
+    </script>
+
+    <script src='lib/jquery-2.0.2.js'></script>
+    <script src='app.js'></script>
+  </body>
+</html>

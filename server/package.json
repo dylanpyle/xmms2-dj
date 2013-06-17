@@ -1,0 +1,9 @@
+{
+  "name": "xmms2-dj-server",
+  "version": "0.0.1",
+  "author": "Dylan Pyle <me@dylanpyle.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.2.6"
+  }
+}
