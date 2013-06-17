@@ -22,4 +22,12 @@
   $ui.pauseBtn.on('click', function() {
     $.post(XDJ_CONFIG.api + '/current/pause');
   });
+
+  $ui.prevBtn.on('click', function() {
+    $.post(XDJ_CONFIG.api + '/current/prev');
+  });
+
+  $ui.nextBtn.on('click', function() {
+    $.post(XDJ_CONFIG.api + '/current/next');
+  });
 })();
