@@ -1,8 +1,7 @@
 # xmms2-dj
 
 In progress:
-- A nodeJS wrapper around the `xmms2` CLI
+- An XMMS2 client whose interface is a RESTful JSON API.
 
-TODO: 
-- A RESTful HTTP server for interacting with said wrapper
-- Example client apps
+Next steps:
+- A 'super-client' - web application which consumes this API.
